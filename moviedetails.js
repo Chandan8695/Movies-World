@@ -33,7 +33,7 @@ fetch(`https://api.themoviedb.org/3/movie/${uniqueId}?api_key=633fafff9c497b8153
       </div>
       <div class="row py-3">
         <h1>Overview</h1>
-        <p style = "font-size: 25px;">${data.overview}</p>
+        <p style = "font-size: 20px;">${data.overview}</p>
       </div>`
 
     $('#movie').html(res);
